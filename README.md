@@ -60,3 +60,10 @@
 
 
 Версия 11: добавлена club.html, кнопка платного клуба ведёт сначала на страницу AI LAB; финальная кнопка ведёт на https://t.me/adinayesimova/92. Иллюстрации консультаций обновлены; добавлена папка assets/ с кадрами из предоставленных пользователем материалов. Для GitHub загрузите ВСЕ файлы и папку assets (сохраняя структуру).
+
+
+## ВАЖНО: изображения на GitHub Pages
+Загружайте папку `assets` целиком, сохраняя имена и вложенность.
+В репозитории должно быть `assets/first-payment.webp`, `assets/earnings.webp`, `assets/career.webp`, `assets/jobs.webp`, `assets/lessons.webp`, `assets/practice.webp`.
+Проверка: https://adinayesimova.github.io/adina-website/assets/first-payment.webp
+Если GitHub через браузер не позволяет загрузить папку перетаскиванием, создайте папку `assets` в репозитории и загрузите в неё шесть файлов отдельно.
