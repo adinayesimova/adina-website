@@ -55,3 +55,9 @@
 .club-image{width:auto;max-width:100%;max-height:none;height:auto;margin:20px auto 5px;object-fit:contain}
 .club-image.photo{max-height:none;object-fit:contain}
 @media(max-width:620px){.club-image{max-height:none}}
+
+/* v14: keep cropped screenshots compact and crisp on high-density displays */
+.club-figure{max-width:100%;margin:24px auto;text-align:center}
+.club-figure .club-image{display:block;width:auto;max-width:min(100%,420px);height:auto;max-height:none;margin:16px auto 6px;object-fit:contain;image-rendering:auto}
+.club-figure .club-image.photo{max-width:min(100%,520px);object-fit:contain}
+@media(max-width:620px){.club-figure .club-image{max-width:min(100%,360px)}.club-figure .club-image.photo{max-width:100%}}
