@@ -3,7 +3,7 @@ window.SITE_CONFIG = {
   tagline: 'Возможности и AI',
   intro: 'Работа, удалённый заработок, путешествия и возможности по всему миру.',
   freeChannel: 'https://t.me/adinayesimova',
-  paidClub: 'https://t.me/adinayesimova/92', // Пост с информацией о платном AI-клубе
+  paidClub: 'club.html', // Страница клуба перед переходом в Telegram
   contact: 'https://t.me/AdinaYessimova', // Личный Telegram для сообщений
   instagram: '',
   consultationPrice: '€50',
