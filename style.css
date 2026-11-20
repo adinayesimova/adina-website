@@ -36,3 +36,9 @@
 /* Дополнительные направления консультаций */
 .art-business{background:linear-gradient(135deg,#d6a7a7,#f7e3d6)}
 .art-blog{background:linear-gradient(135deg,#e7c6b8,#c68c91)}
+
+/* Consistent vector icons instead of iOS color emoji */
+.opportunity-icon{width:128px;height:128px;fill:none;stroke:currentColor;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;filter:drop-shadow(0 2px 0 rgba(73,3,3,.10))}
+.art-remote .opportunity-icon{stroke:#fff0e4}
+.website-trap{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+@media(max-width:600px){.opportunity-icon{width:112px;height:112px}}

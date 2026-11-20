@@ -8,9 +8,8 @@ window.SITE_CONFIG = {
   instagram: '',
   consultationPrice: '€50',
   consultationMinutes: '60',
-  // Для автоматической отправки заявок укажи адрес защищённого обработчика формы (например Formspree).
-  // Не вставляй сюда токен Telegram-бота!
-  consultationFormEndpoint: '', // Вставь ссылку на Instagram
+  // Адрес Cloudflare Worker. Секрет Telegram хранится только в Cloudflare.
+  consultationFormEndpoint: 'https://adina-website-requests.adinayesimova.workers.dev/',
   cvPrice: '€18', // Измени цену, если потребуется
   cvAvailable: true, // true после готовности продукта к продаже
   cvIncludes: [
